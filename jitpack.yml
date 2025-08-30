@@ -1,0 +1,5 @@
+# jitpack.yml
+jdk:
+  - openjdk8
+install:
+  - ./gradlew :library:publishToMavenLocal
